@@ -1,0 +1,1 @@
+(()=>{"use strict";$((function(){$(document).on("click",'[data-bb-toggle="duplicate-property"]',(function(t){t.preventDefault(),$httpClient.make().withButtonLoading($(this)).post($(this).data("url")).then((function(t){var e=t.data;Botble.showSuccess(e.message),setTimeout((function(){window.location.href=e.data.url}),500)}))}))}))})();

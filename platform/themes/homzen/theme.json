@@ -1,0 +1,15 @@
+{
+    "id": "botble/homzen",
+    "name": "Homzen",
+    "namespace": "Theme\\Homzen\\",
+    "description": "Real Estate theme",
+    "author": "Botble Technologies",
+    "version": "1.0.0",
+    "required_plugins": [
+        "blog",
+        "contact",
+        "language",
+        "location",
+        "real-estate"
+    ]
+}
