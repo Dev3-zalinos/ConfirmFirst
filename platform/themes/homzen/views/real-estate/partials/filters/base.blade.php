@@ -1,6 +1,6 @@
 <div @class(['wd-find-select' =>  in_array($style, [1, 2, 4]), 'wd-filter-select' => $style === 3, 'style-2 shadow-st' => $style === 2, 'no-left-round' => $noLeftRound ?? false])>
     <div class="inner-group">
-        {{-- @include(Theme::getThemeNamespace('views.real-estate.partials.filters.keyword')) --}}
+        <!-- {{-- @include(Theme::getThemeNamespace('views.real-estate.partials.filters.keyword')) --}} -->
         @include(Theme::getThemeNamespace('views.real-estate.partials.filters.location'))
         @include(Theme::getThemeNamespace('views.real-estate.partials.filters.categories'))
 
